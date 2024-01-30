@@ -1,0 +1,84 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+
+  }
+  
+  .logo-container {
+    margin-top: 20px;
+  }
+  
+  .logo-container img {
+    max-width: 50px; /* Adjust the size as needed */
+    height: auto;
+    animation: spin 2s linear infinite; /* Add a spinning animation to the logo */
+
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+    color: white; /* Set text color to white for both h1 and h2 */
+  }
+  
+  .input-container {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff; /* White border for a clean look */
+    padding-bottom: 5px;
+  }
+  
+  .input-group img {
+    width: 20px; /* Adjust the size as needed */
+    margin-right: 10px;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff; /* White text color */
+    width: 100%;
+  }
+  
+  .login-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  
+  .signup-link {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .backup-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px; /* Adjust the size as needed */
+    cursor: pointer;
+  }
+  

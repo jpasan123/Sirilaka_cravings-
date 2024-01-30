@@ -1,0 +1,78 @@
+.welcome-container {
+    text-align: center;
+    margin-top: 5px;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .welcome-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .welcome-container button:hover {
+    background-color: #333; /* Darken the background color on hover */
+    color: #fff; /* Lighten the text color on hover */
+  }
+  
+  .logo-container {
+    margin-top: 20px;
+  }
+  
+  .logo-container img {
+    max-width: 50px;
+    height: auto;
+    animation: spin 2s linear infinite; /* Add a spinning animation to the logo */
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .text-container {
+    flex-grow: 1;
+    animation: slideInUp 1s ease-in-out;
+  }
+  
+  @keyframes slideInUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .text-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
